@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "goldhype",
+    "slug": "goldhype",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "goldhype"
+}
