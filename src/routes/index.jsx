@@ -1,3 +1,3 @@
 import Stack from "./Stack";
-
-export { Stack };
+import BottomTab from "./BottomTab";
+export { Stack,BottomTab };

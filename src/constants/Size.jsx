@@ -1,3 +1,5 @@
+import { Dimensions } from "react-native";
+const { width, height } = Dimensions.get('window');
 export const margin = {
     normal: 8,
     medium: 16,
@@ -15,6 +17,11 @@ export const padding = {
     xxxlarge: 48,
 };
 
+export const radius = {
+    normal: 5,
+    medium: 10,
+    large:15,
+}
 export const fontSize = {
     display: 48,
     title: 32,
@@ -22,4 +29,8 @@ export const fontSize = {
     largeText:20,
     mediumText: 16,
     smallText:12,
+}
+export const Screen = {
+    width: width,
+    height: height,
 }

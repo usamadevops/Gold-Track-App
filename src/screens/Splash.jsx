@@ -16,11 +16,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems:'center',
-    backgroundColor:'#0F0F0F'
+    backgroundColor:Colors.Tertiary,
   },
   title: {
     fontFamily: 'DSDRegular',
-    color: '#EBBC4C',
-    fontSize:48
+    color: Colors.primary,
+    fontSize:Size.fontSize.display
   }
 })

@@ -15,7 +15,7 @@ import {Stack} from './src/routes/';
          'DMSansBold': require('./assets/fonts/DMSans-Bold.ttf'), 
         });
       setisfontLoaded(true);
-     
+     console.log(fontLoaded)
     }
     
    React.useEffect(() => {

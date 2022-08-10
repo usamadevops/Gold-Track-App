@@ -3,5 +3,5 @@ import Currencybutton from './Currencybutton';
 import Metalcard from './Metalcard';
 import Newscard from './Newscard';
 import Notificationcard from './Notificationcard';
-
-export {Button,Currencybutton,Metalcard,Newscard,Notificationcard}
+import HeaderTitle from './HeaderTitle';
+export {Button,HeaderTitle,Currencybutton,Metalcard,Newscard,Notificationcard}

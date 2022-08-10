@@ -1,16 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Colors, Size } from '../../constants'
-import { HeaderTitle } from '../../components'
-const MetalBoxes = () => {
+import { Colors, Size } from '../constants'
+import { HeaderTitle } from '../components'
+const Notifications = () => {
   return (
     <View style={styles.container}>
-     <HeaderTitle title="PRICE CALCULATOR"/>
+     <HeaderTitle title="NOTIFICATIONS"/>
     </View>
   )
 }
 
-export default MetalBoxes
+export default Notifications
 
 const styles = StyleSheet.create({
   container: {
