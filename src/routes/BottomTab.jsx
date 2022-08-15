@@ -27,7 +27,7 @@ export default () => (
         screenOptions={{
         animation: 'slide_from_right',
         }}
-                    initialRouteName="MetalsList"
+                    initialRouteName="MetalBoxes"
                     tabBarOptions={{
                         activeTintColor: Colors.primaryHover,
                         inactiveTintColor:Colors.primary,
