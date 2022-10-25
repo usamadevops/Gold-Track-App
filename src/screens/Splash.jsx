@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor:Colors.Tertiary,
   },
   title: {
-    fontFamily: 'DSDRegular',
+    fontFamily: 'DMSerifDisplay-Regular',
     color: Colors.primary,
     fontSize:Size.fontSize.display
   }

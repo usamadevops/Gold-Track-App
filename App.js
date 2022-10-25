@@ -8,11 +8,11 @@ import {Stack} from './src/routes/';
 
     async function loadFonts() {
         await Font.loadAsync({
-          'DSDRegular': require('./assets/fonts/DMSerifDisplay-Regular.ttf'),
-          'DSDItalic': require('./assets/fonts/DMSerifDisplay-Italic.ttf'),
-         'DMSansRegular': require('./assets/fonts/DMSans-Regular.ttf'),
-         'DMSansMedium': require('./assets/fonts/DMSans-Medium.ttf'),
-         'DMSansBold': require('./assets/fonts/DMSans-Bold.ttf'), 
+          'DMSerifDisplay-Regular': require('./assets/fonts/DMSerifDisplay-Regular.ttf'),
+          'DMSerifDisplay-Italic': require('./assets/fonts/DMSerifDisplay-Italic.ttf'),
+         'DMSans-Regular': require('./assets/fonts/DMSans-Regular.ttf'),
+         'DMSans-Medium': require('./assets/fonts/DMSans-Medium.ttf'),
+         'DMSans-Bold': require('./assets/fonts/DMSans-Bold.ttf'), 
         });
       setisfontLoaded(true);
      console.log(fontLoaded)

@@ -4,7 +4,6 @@ import { Colors, Size } from '../constants'
 
 const CalculatorButton = (props) => {
   return (
-
     <Pressable style={{
       alignItems: 'center',
       justifyContent: 'center',
@@ -14,11 +13,13 @@ const CalculatorButton = (props) => {
       height: 68,
       backgroundColor:props.isnumber?'transparent': `${Colors.secondary}30`,
       borderRadius: 40,
-    }} onPress={()=>props.onPress(props.defVal.concat(props.value))}>
+    }} 
+    // onPress={()=>props.onPress(props.defVal.concat(props.value))}
+    >
       <Text
         
         style={{
-          fontFamily: 'DMSansRegular',
+          fontFamily: 'DMSans-Regular',
           fontSize: props.isnumber? Size.fontSize.title:Size.fontSize.header,
           color: Colors.White,
         }}>{props.value}</Text>

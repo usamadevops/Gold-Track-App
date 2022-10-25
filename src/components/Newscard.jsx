@@ -36,12 +36,12 @@ const styles = StyleSheet.create({
     marginBottom: Size.margin.medium,
   },
   LargeText: {
-    fontFamily: 'DSDRegular',
+    fontFamily: 'DMSerifDisplay-Regular',
     color: Colors.White,
     fontSize: Size.fontSize.header,
     marginTop:Size.margin.medium
   },  smallText: {
-    fontFamily: 'DMSansRegular',
+    fontFamily: 'DMSans-Regular',
     fontSize: Size.fontSize.mediumText,
     color: Colors.Tertiary,
     fontWeight:'500'

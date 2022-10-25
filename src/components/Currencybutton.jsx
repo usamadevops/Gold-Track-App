@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     fontSize: Size.fontSize.largeText
   },
   mediumText: {
-    fontFamily: 'DMSansRegular',
+    fontFamily: 'DMSans-Regular',
     color: Colors.White,
     fontSize: Size.fontSize.mediumText
   },

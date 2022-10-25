@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     backgroundColor:Colors.primary,
   },
   buttonText: {
-    fontFamily: 'DMSerifDisplay',
+    fontFamily: 'DMSerifDisplay-Regular',
     fontWeight:'900',
     color: Colors.background,
     fontSize:Size.fontSize.largeText

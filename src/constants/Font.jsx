@@ -1,7 +1,7 @@
 export const Font = {
-    SerifDisplayRegular: 'DSDRegular',
-    SerifDisplayItalic: 'DMSansRegular',
-    DMsansRegular: 'DMSansRegular',
+    SerifDisplayRegular: 'DMSerifDisplay-Regular',
+    SerifDisplayItalic: 'DMSans-Regular',
+    DMSansRegular: 'DMSans-Regular',
     DMSansMedium: 'DMSansMedium',
     DMSansBold: 'DMSansBold',
 };

@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor:Colors.background
   },
   LargeText: {
-    fontFamily: 'DSDRegular',
+    fontFamily: 'DMSerifDisplay-Regular',
     color: Colors.Tertiary,
     fontSize: Size.fontSize.header,
  

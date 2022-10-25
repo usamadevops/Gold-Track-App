@@ -24,7 +24,7 @@ const Calculator = () => {
                 height: 56, borderWidth: 0,
                 borderColor: Colors.primary,
                 color: Colors.Tertiary,
-                fontFamily: 'DMSansRegular',
+                fontFamily: 'DMSans-Regular',
                 fontSize: Size.fontSize.title,
               }}
               placeholder="0.0"
@@ -34,7 +34,7 @@ const Calculator = () => {
             />
             <Text style={{
               color: Colors.Tertiary,
-              fontFamily: 'DMSansRegular',
+              fontFamily: 'DMSans-Regular',
               fontSize: Size.fontSize.title,
             }}>
               oz
@@ -53,7 +53,7 @@ const Calculator = () => {
                 height: 56, borderWidth: 0,
                 borderColor: Colors.primary,
                 color: Colors.Tertiary,
-                fontFamily: 'DMSansRegular',
+                fontFamily: 'DMSans-Regular',
                 fontSize: Size.fontSize.title,
               }}
               placeholder="00"
@@ -63,7 +63,7 @@ const Calculator = () => {
             />
             <Text style={{
               color: Colors.Tertiary,
-              fontFamily: 'DMSansRegular',
+              fontFamily: 'DMSans-Regular',
               fontSize: Size.fontSize.title,
             }}>
               $
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
 
   },
   smallText: {
-    fontFamily: 'DSDRegular',
+    fontFamily: 'DMSerifDisplay-Regular',
     fontSize: Size.fontSize.largeText,
     color: Colors.primary,
     fontWeight: '500'

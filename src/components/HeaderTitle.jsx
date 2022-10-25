@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         alignSelf:'flex-start'
       },
       title: {
-        fontFamily: 'DMSerifDisplay',
+        fontFamily: 'DMSerifDisplay-Regular',
         color: Colors.primary,
         fontSize: Size.fontSize.title,
         letterSpacing: 0.1,

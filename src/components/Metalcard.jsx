@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   LargeText: {
-    fontFamily: 'DSDRegular',
+    fontFamily: 'DMSerifDisplay-Regular',
     color: Colors.White,
     fontSize: Size.fontSize.header
   },
@@ -70,14 +70,14 @@ const styles = StyleSheet.create({
     alignItems:'flex-end'
   },
   mediumText: {
-    fontFamily: 'DSDRegular',
+    fontFamily: 'DMSerifDisplay-Regular',
     fontSize: Size.fontSize.header,
     color: Colors.White,
     fontWeight: '500',
     marginBottom:4
   },
   smallText: {
-    fontFamily: 'DMSansRegular',
+    fontFamily: 'DMSans-Regular',
     fontSize: Size.fontSize.mediumText,
     color: Colors.Tertiary,
     fontWeight:'500'

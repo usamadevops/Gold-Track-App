@@ -14,6 +14,14 @@
 		96905EF65AED1B983A6B3ABC /* libPods-goldhype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-goldhype.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		24D425EAD5D54A968B4A1BC0 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30273E95A62D48FF9B4EF706 /* DMSans-Bold.ttf */; };
+		7695B5F6758642F68562C8D3 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7033AFEF98457599D578EC /* DMSans-BoldItalic.ttf */; };
+		4D78474580544D0593A8CC87 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFF6B5C91C00498B8B7A33F8 /* DMSans-Italic.ttf */; };
+		2DE211ADA7464AFFA7C877F5 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A630431BF8304BBC8C1A1715 /* DMSans-Medium.ttf */; };
+		8608CC88232F422A87043408 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4FDE8DE23F1422D98C299E3 /* DMSans-MediumItalic.ttf */; };
+		CB892C3ED762480F8A7989A2 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53E144BE7C74A6AB0AD6CD0 /* DMSans-Regular.ttf */; };
+		4BB88D7069A34B56B5D46E6F /* DMSerifDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81D07E9776414F158D240BC1 /* DMSerifDisplay-Italic.ttf */; };
+		E81C9A95525C4BCBBD14B402 /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C03840441644459BCD4309A /* DMSerifDisplay-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,14 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-goldhype/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		30273E95A62D48FF9B4EF706 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; name = "DMSans-Bold.ttf"; path = "../assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE7033AFEF98457599D578EC /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-BoldItalic.ttf"; path = "../assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AFF6B5C91C00498B8B7A33F8 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; name = "DMSans-Italic.ttf"; path = "../assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A630431BF8304BBC8C1A1715 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; name = "DMSans-Medium.ttf"; path = "../assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4FDE8DE23F1422D98C299E3 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-MediumItalic.ttf"; path = "../assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C53E144BE7C74A6AB0AD6CD0 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; name = "DMSans-Regular.ttf"; path = "../assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81D07E9776414F158D240BC1 /* DMSerifDisplay-Italic.ttf */ = {isa = PBXFileReference; name = "DMSerifDisplay-Italic.ttf"; path = "../assets/fonts/DMSerifDisplay-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C03840441644459BCD4309A /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "DMSerifDisplay-Regular.ttf"; path = "../assets/fonts/DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				9E530CCB3C4F41009C168F7C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -132,6 +149,22 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
+		};
+		9E530CCB3C4F41009C168F7C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				30273E95A62D48FF9B4EF706 /* DMSans-Bold.ttf */,
+				EE7033AFEF98457599D578EC /* DMSans-BoldItalic.ttf */,
+				AFF6B5C91C00498B8B7A33F8 /* DMSans-Italic.ttf */,
+				A630431BF8304BBC8C1A1715 /* DMSans-Medium.ttf */,
+				A4FDE8DE23F1422D98C299E3 /* DMSans-MediumItalic.ttf */,
+				C53E144BE7C74A6AB0AD6CD0 /* DMSans-Regular.ttf */,
+				81D07E9776414F158D240BC1 /* DMSerifDisplay-Italic.ttf */,
+				9C03840441644459BCD4309A /* DMSerifDisplay-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -196,6 +229,14 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				24D425EAD5D54A968B4A1BC0 /* DMSans-Bold.ttf in Resources */,
+				7695B5F6758642F68562C8D3 /* DMSans-BoldItalic.ttf in Resources */,
+				4D78474580544D0593A8CC87 /* DMSans-Italic.ttf in Resources */,
+				2DE211ADA7464AFFA7C877F5 /* DMSans-Medium.ttf in Resources */,
+				8608CC88232F422A87043408 /* DMSans-MediumItalic.ttf in Resources */,
+				CB892C3ED762480F8A7989A2 /* DMSans-Regular.ttf in Resources */,
+				4BB88D7069A34B56B5D46E6F /* DMSerifDisplay-Italic.ttf in Resources */,
+				E81C9A95525C4BCBBD14B402 /* DMSerifDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,13 +287,11 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-goldhype/Pods-goldhype-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +354,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.goldhype;
 				PRODUCT_NAME = goldhype;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -338,6 +378,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.goldhype;
 				PRODUCT_NAME = goldhype;
 				SWIFT_VERSION = 5.0;
@@ -377,6 +418,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -433,6 +475,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

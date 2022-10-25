@@ -58,12 +58,12 @@ const styles = StyleSheet.create({
         paddingVertical: Size.margin.normal,
     },
     largeText: {
-        fontFamily: 'DSDRegular',
+        fontFamily: 'DMSerifDisplay-Regular',
         color: Colors.primary,
         fontSize: Size.fontSize.header
     },
     smallText: {
-        fontFamily: 'DMSansRegular',
+        fontFamily: 'DMSans-Regular',
         fontSize: Size.fontSize.mediumText,
         color: Colors.Tertiary,
         fontWeight: 'bold'
