@@ -1,11 +1,12 @@
 import * as React from 'react';
 import * as Font from 'expo-font';
-import { Splash } from './src/screens';
+import { Selectcurrency, Splash } from './src/screens';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Stack} from './src/routes/';
 
  function App() {
    const [fontLoaded, setisfontLoaded] = React.useState(false);
-
+const [currency, setcurrency] = React.useState('')
     async function loadFonts() {
         await Font.loadAsync({
           'DMSerifDisplay-Regular': require('./assets/fonts/DMSerifDisplay-Regular.ttf'),
@@ -19,12 +20,15 @@ import {Stack} from './src/routes/';
     }
     
    React.useEffect(() => {
-
+    setcurrency(AsyncStorage.getItem('Currency'));
    loadFonts();
     }, [])
    
    if (!fontLoaded) {
      return <Splash/>
+   }
+   else if(currency==''){
+    <Selectcurrency/>
    }
    else {
     return <Stack />;

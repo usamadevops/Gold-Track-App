@@ -9,8 +9,8 @@ const StackScreens = createNativeStackNavigator();
 function Stack() {
     return (
         <NavigationContainer>
-            <StackScreens.Navigator initialRouteName='Selectcurrency' screenOptions={{headerShown:false,headerShadowVisible:false}}>
-                <StackScreens.Screen name='Selectcurrency' component={Selectcurrency} />
+            <StackScreens.Navigator initialRouteName='BottomTab' screenOptions={{headerShown:false,headerShadowVisible:false}}>
+                {/* <StackScreens.Screen name='Selectcurrency' component={Selectcurrency} /> */}
                 <StackScreens.Screen name='Calculator' component={Calculator} options={{
                     headerShown: true,
                     headerBackButtonMenuEnabled: true,

@@ -1,10 +1,14 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import {  ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Button, Currencybutton, HeaderTitle } from '../components';
 import { Colors, Size } from '../constants';
-import MockData from '../constants/MockData.json'
+import MockData from '../constants/MockData.json';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 const Selectcurrency = ({ navigation }) => {
-  const [isSelected, setisSelected] = React.useState(0)
+  const [isSelected, setisSelected] = React.useState();
+  const [selectedCurrency, setselectedCurrency] = React.useState('');
+  console.log(selectedCurrency);
   return (
     <View style={styles.container}>
       <HeaderTitle title="SELECT CURRENCY" />
@@ -13,7 +17,6 @@ const Selectcurrency = ({ navigation }) => {
         scrollEnabled={true}
         showsVerticalScrollIndicator={false}
         persistentScrollbar={true}
-
         fadingEdgeLength={50}
       >
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', flexWrap: 'wrap' }}>
@@ -27,6 +30,7 @@ const Selectcurrency = ({ navigation }) => {
                   index={index}
                   setisSelected={setisSelected}
                   isSelected={isSelected}
+                  setselectedCurrency={setselectedCurrency}
                 />
               )
             })
@@ -34,7 +38,7 @@ const Selectcurrency = ({ navigation }) => {
         </View>
       </ScrollView>
       <View style={{ width: '100%', alignSelf: 'center', position: 'absolute', bottom: 40 }}>
-        <Button onPress={() => navigation.navigate('BottomTab')} />
+        <Button onPress={async() =>  await AsyncStorage.setItem('Currency',selectedCurrency)} />
       </View>
 
     </View>
