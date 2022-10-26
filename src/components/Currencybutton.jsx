@@ -3,21 +3,21 @@ import React from 'react'
 import { Colors, Size } from '../constants'
 import {AntDesign}  from '@expo/vector-icons';
 
-const Currencybutton = () => {
-  const [isSelected, setisSelected] = React.useState(false)
+const Currencybutton = ({currencyname,symbol,icon,index,setisSelected,isSelected}) => {
+
   return (
    
-    <Pressable onPress={() => console.log('ll')} style={styles.container} android_ripple={{borderless:false,color:Colors.primary,radius:200}}>
+    <Pressable onPress={() => setisSelected(index)} style={[styles.container,{   backgroundColor: index===isSelected?`${Colors.primary}40`:`${Colors.secondary}10`,}]} android_ripple={{borderless:false,color:Colors.primary,radius:200}}>
       <View style={styles.container_Text}>
         <Text style={styles.largeText}>
-          US Dollar
+          {currencyname}
         </Text>
         <Text style={styles.mediumText}>
-          $
+          {symbol}
         </Text>
       </View>
       {
-        isSelected ?
+        isSelected===index ?
           (
             <View style={styles.container__Icon}>
             <AntDesign name='check' size={24} color={Colors.primary}/>
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   paddingHorizontal: Size.margin.medium,
     width: ('48%'),
     height: 92,
-    backgroundColor: `${Colors.secondary}10`,
+ 
     justifyContent: 'space-between',
     borderRadius: Size.radius.medium,
     marginBottom: Size.margin.medium,
@@ -54,16 +54,18 @@ const styles = StyleSheet.create({
   
   },
   largeText: {
-    fontFamily: 'DMSansMedium',
+    fontFamily: 'DMSans-Medium',
     color: Colors.White,
-    fontSize: Size.fontSize.largeText
+    fontSize: Size.fontSize.mediumText
   },
   mediumText: {
     fontFamily: 'DMSans-Regular',
     color: Colors.White,
-    fontSize: Size.fontSize.mediumText
+    fontSize: Size.fontSize.smallText
   },
   container__Icon: {
-    alignSelf: 'center',
+    position:'absolute',
+    right:10,
+    bottom:25,
   }
 })

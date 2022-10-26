@@ -1,0 +1,132 @@
+[
+    {
+        "currencyName":"US Dollar",
+        "Symbol":"USD",
+        "Icon":""
+    },
+    {
+        "currencyName":"Australian Dollar",
+        "Symbol":"AUD",
+        "Icon":""
+    },
+    {
+        "currencyName":"British Pound",
+        "Symbol":"GBP",
+        "Icon":""
+    }, 
+    {
+        "currencyName":"Swiss Franc",
+        "Symbol":"EUR",
+        "Icon":""
+    },
+    {
+        "currencyName":"European Euro",
+        "Symbol":"CHF",
+        "Icon":""
+    },
+    {
+        "currencyName":"Canadian Dollar",
+        "Symbol":"CAD",
+        "Icon":""
+    },
+    {
+        "currencyName":"Japanese Yen",
+        "Symbol":"JPY",
+        "Icon":""
+    },
+    {
+        "currencyName":"South Korean Won",
+        "Symbol":"KRW",
+        "Icon":""
+    },
+    {
+        "currencyName":"Indian Rupee",
+        "Symbol":"INR",
+        "Icon":""
+    }, 
+    {
+        "currencyName":"South African Band",
+        "Symbol":"ZAR",
+        "Icon":""
+    },
+    {
+        "currencyName":"Thai Baht",
+        "Symbol":"THB",
+        "Icon":""
+    },
+    {
+        "currencyName":"Singapore Dollar",
+        "Symbol":"SGD",
+        "Icon":""
+    },
+    {
+        "currencyName":"Bitcoin",
+        "Symbol":"BTC",
+        "Icon":""
+    },
+    {
+        "currencyName":"Hong Kong Dollar",
+        "Symbol":"HKD",
+        "Icon":""
+    },
+    {
+        "currencyName":"Czech Krona",
+        "Symbol":"CZK",
+        "Icon":""
+    },
+    {
+        "currencyName":"Russian Ruble",
+        "Symbol":"RUB",
+        "Icon":""
+    },
+    {
+        "currencyName":"Polish Zloty",
+        "Symbol":"PLN",
+        "Icon":""
+    },
+    {
+        "currencyName":"Malaysian Ringit",
+        "Symbol":"MYR",
+        "Icon":""
+    }, 
+    {
+        "currencyName":"UAE Dirham",
+        "Symbol":"AED",
+        "Icon":""
+    },
+    {
+        "currencyName":"Kuwaiti Dinar",
+        "Symbol":"KWD",
+        "Icon":""
+    },
+    {
+        "currencyName":"Egyptian Pound",
+        "Symbol":"EGP",
+        "Icon":""
+    },
+    {
+        "currencyName":"Malaysian Ringit",
+        "Symbol":"OMR",
+        "Icon":""
+    }, 
+    {
+        "currencyName":"Omani Riyal",
+        "Symbol":"OMR",
+        "Icon":""
+    },
+    {
+        "currencyName":"Saudi Riyal",
+        "Symbol":"SAR",
+        "Icon":""
+    },
+    {
+        "currencyName":"Mexican Peso",
+        "Symbol":"MXN",
+        "Icon":""
+    },
+    {
+        "currencyName":"Gold/Silver Ratio",
+        "Symbol":"XAG",
+        "Icon":""
+    }
+]
