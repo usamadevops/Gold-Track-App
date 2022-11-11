@@ -74,7 +74,7 @@ const Calculator = () => {
       {/* For Calculator Inputs */}
 
       <View style={{ flex: 1, flexDirection: 'row', }}>
-        <View style={{ flex: 2, flexWrap: "wrap", height: 340, }}>
+        <View style={{ flex: 1.5, flexWrap: "wrap", height: 340, }}>
           <CalculatorButton isnumber={true} value={'7'} onPress={setWeight} defVal={Weight}/>
           <CalculatorButton isnumber={true} value={'4'} onPress={setWeight} defVal={Weight}/>
           <CalculatorButton isnumber={true} value={'1'} onPress={setWeight} defVal={Weight} />
@@ -89,7 +89,7 @@ const Calculator = () => {
           <CalculatorButton isnumber={true} value={'<-'} onPress={setWeight} />
         </View>
         <View style={{ flex: 1,  height: 340,flexDirection:'column' }}>
-          <View style={{ flex: 3, flexWrap: "wrap", }}>
+          <View style={{ flex: 1, flexWrap: "wrap", }}>
           <CalculatorButton isnumber={false} value={'8k'} />
           <CalculatorButton isnumber={false} value={'14k'} />
           <CalculatorButton isnumber={false} value={'22k'} />

@@ -1,8 +1,9 @@
 import * as React from 'react';
 import * as Font from 'expo-font';
 import { Selectcurrency, Splash } from './src/screens';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import {Stack} from './src/routes/';
+import { getData } from './src/utils/localStorage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
  function App() {
    const [fontLoaded, setisfontLoaded] = React.useState(false);
@@ -20,15 +21,18 @@ const [currency, setcurrency] = React.useState('')
     }
     
    React.useEffect(() => {
-    setcurrency(AsyncStorage.getItem('Currency'));
+   let {res}= getData('Currency');
+   setcurrency(res);
+     console.log('CURECNY',currency);
    loadFonts();
     }, [])
    
    if (!fontLoaded) {
      return <Splash/>
    }
-   else if(currency==''){
-    <Selectcurrency/>
+   else if(currency===undefined)
+   {
+    return <Selectcurrency/>
    }
    else {
     return <Stack />;

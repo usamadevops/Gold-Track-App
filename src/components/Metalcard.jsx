@@ -1,35 +1,36 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { Colors, Size } from '../constants'
-const Metalcard = () => {
+import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import moment from 'moment';
+import { Colors, Size } from '../constants';
+const Metalcard = ({metal}) => {
+  console.log(new Date(metal.timestamp));
   return (
     <View style={styles.container}>
       <View style={styles.container_left}>
         <Text style={styles.LargeText}>
-          Gold
+          {metal.metalName}
         </Text>
         <View style={{ flexDirection: 'row',alignItems:'center' }}>
           <Text style={styles.smallText}>
-            22k
+            24k
             {' '}
-            ▪
+            •
           </Text>
           <Text style={styles.smallText}>
             {' '}
-            5 mins Ago
+            {moment(new Date(metal.timestamp)).fromNow()}
           </Text>
         </View>
       </View>
       <View style={styles.container_center}>
-
       </View>
       <View style={styles.container_right}>
-      <View style={{ flexDirection: 'column',alignItems:'center' }}>
+      <View style={{ flexDirection: 'column',alignItems:'flex-end' }}>
           <Text style={styles.mediumText}>
-          $780
+          $ {metal.price.toFixed(2)}
           </Text>
           <Text style={styles.smallText}>
-          +3.21%
+          +{metal.chp}%
           </Text>
         </View>
       </View>
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: Size.margin.large,
     paddingVertical: Size.margin.medium,
     width: ('100%'),
-    height: 110,
+    height: 95,
     elevation: 2,
     backgroundColor: `${Colors.secondary}10`,
     justifyContent: 'space-between',
@@ -59,7 +60,7 @@ const styles = StyleSheet.create({
   LargeText: {
     fontFamily: 'DMSerifDisplay-Regular',
     color: Colors.White,
-    fontSize: Size.fontSize.header
+    fontSize: Size.fontSize.largeText
   },
   container_center: {
     flex: 1,
@@ -71,15 +72,15 @@ const styles = StyleSheet.create({
   },
   mediumText: {
     fontFamily: 'DMSerifDisplay-Regular',
-    fontSize: Size.fontSize.header,
+    fontSize: Size.fontSize.largeText,
     color: Colors.White,
     fontWeight: '500',
     marginBottom:4
   },
   smallText: {
     fontFamily: 'DMSans-Regular',
-    fontSize: Size.fontSize.mediumText,
+    fontSize: Size.fontSize.mediumText/1.2,
     color: Colors.Tertiary,
-    fontWeight:'500'
+    fontWeight:'300'
   }
 })

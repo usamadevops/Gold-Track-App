@@ -4,6 +4,7 @@ import { Button, Currencybutton, HeaderTitle } from '../components';
 import { Colors, Size } from '../constants';
 import MockData from '../constants/MockData.json';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { storeData } from '../utils/localStorage';
 
 const Selectcurrency = ({ navigation }) => {
   const [isSelected, setisSelected] = React.useState();
@@ -38,7 +39,7 @@ const Selectcurrency = ({ navigation }) => {
         </View>
       </ScrollView>
       <View style={{ width: '100%', alignSelf: 'center', position: 'absolute', bottom: 40 }}>
-        <Button onPress={async() =>  await AsyncStorage.setItem('Currency',selectedCurrency)} />
+        <Button onPress={async() =>  {await storeData('Currency',selectedCurrency),console.log('click')}} />
       </View>
 
     </View>
