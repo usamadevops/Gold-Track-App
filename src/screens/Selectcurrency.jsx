@@ -39,7 +39,7 @@ const Selectcurrency = ({ navigation }) => {
         </View>
       </ScrollView>
       <View style={{ width: '100%', alignSelf: 'center', position: 'absolute', bottom: 40 }}>
-        <Button onPress={async() =>  {await storeData('Currency',selectedCurrency),console.log('click')}} />
+        <Button onPress={async() =>  {await storeData('Currency',selectedCurrency)}} />
       </View>
 
     </View>

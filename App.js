@@ -20,17 +20,22 @@ const [currency, setcurrency] = React.useState('')
      console.log(fontLoaded)
     }
     
-   React.useEffect(() => {
-   let {res}= getData('Currency');
-   setcurrency(res);
-     console.log('CURECNY',currency);
-   loadFonts();
-    }, [])
+    React.useEffect(() => {
+      async function fetchCurrency() {
+        let res = await getData('Currency');
+        setcurrency(res);
+        // console.log('CURRENCY', currency);
+      }
+    
+      fetchCurrency();
+      loadFonts();
+    }, []);
+    
    
    if (!fontLoaded) {
      return <Splash/>
    }
-   else if(currency===undefined)
+   else if(currency=== '')
    {
     return <Selectcurrency/>
    }

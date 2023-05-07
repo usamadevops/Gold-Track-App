@@ -3,12 +3,12 @@ import React from 'react';
 import moment from 'moment';
 import { Colors, Size } from '../constants';
 const Metalcard = ({metal}) => {
-  console.log(new Date(metal.timestamp));
+  console.log(metal);
   return (
     <View style={styles.container}>
       <View style={styles.container_left}>
         <Text style={styles.LargeText}>
-          {metal.metalName}
+          {metal?.metal}
         </Text>
         <View style={{ flexDirection: 'row',alignItems:'center' }}>
           <Text style={styles.smallText}>
@@ -18,7 +18,7 @@ const Metalcard = ({metal}) => {
           </Text>
           <Text style={styles.smallText}>
             {' '}
-            {moment(new Date(metal.timestamp)).fromNow()}
+            {moment(new Date(metal?.timestamp)).fromNow()}
           </Text>
         </View>
       </View>
@@ -27,10 +27,10 @@ const Metalcard = ({metal}) => {
       <View style={styles.container_right}>
       <View style={{ flexDirection: 'column',alignItems:'flex-end' }}>
           <Text style={styles.mediumText}>
-          $ {metal.price.toFixed(2)}
+          $ {metal?.price?.toFixed(2)}
           </Text>
           <Text style={styles.smallText}>
-          +{metal.chp}%
+          +{metal?.chp}%
           </Text>
         </View>
       </View>
